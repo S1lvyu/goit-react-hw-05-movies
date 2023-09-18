@@ -1,0 +1,26 @@
+.movies__list {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.movie__card {
+  height: 350px;
+  border-radius: 5px;
+  background-color: beige;
+  width: 400px;
+}
+.movie__card:hover {
+  color: brown;
+}
+.movie__name {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 35px;
+}
+.movie__image {
+  width: 400px;
+  height: 224.8px;
+}

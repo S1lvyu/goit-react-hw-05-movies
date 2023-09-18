@@ -7,9 +7,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: goldenrod;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.links-container {
+  height: 100px;
+  width: 100vw;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+.link {
+  font-size: 24px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+.link:hover {
+  color: brown;
+}
+.active {
+  color: brown;
 }
